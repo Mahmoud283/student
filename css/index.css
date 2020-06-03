@@ -500,5 +500,13 @@ color: #2eca7f;
     {
         font-size: 18px;
     }
+    .about li
+{
+    list-style:url(../img/ajax-loader.gif) !important;
+    margin-bottom: 5px;
+    vertical-align: middle;
+    display: block;
+    width: 100%;
+}
 
 }
