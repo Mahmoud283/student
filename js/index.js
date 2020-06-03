@@ -6,7 +6,7 @@
 
 $(window).scroll(function(){
 	$("section").each(function(){
-if($(window).scrollTop()>$(this).offset().top-2)
+if($(window).scrollTop()>$(this).offset().top-15)
   {
 	  let section_id=$(this).attr("id");
 	  $("a").removeClass("active")
